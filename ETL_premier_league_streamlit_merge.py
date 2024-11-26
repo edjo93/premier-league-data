@@ -59,6 +59,9 @@ for player_data in scorers:
 # Crear un DataFrame con pandas para los goleadores
 df_scorers = pd.DataFrame(scorers_data)
 
+# Agregar el texto created by Eddas
+st.markdown("<h5 style='text-align: center; color: grey;'>Created by Eddas</h5>", unsafe_allow_html=True)
+
 # Crear la interfaz de Streamlit
 st.title('Tabla de Posiciones - Premier League Temporada 2022')
 
